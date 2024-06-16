@@ -1,0 +1,19 @@
+
+#logo-container{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("Images/logo.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: block;
+}
+img{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
