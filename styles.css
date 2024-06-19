@@ -21,3 +21,26 @@ img{
 h1{
     font-family: "Playwrite IS","cursive";
 }
+
+.msg-div{
+    background-color:lightgrey;
+    color:rgb(255, 72, 0);
+    border-radius: 20px 5px;
+    padding: 30px;
+    width: 75%;
+    position:fixed;
+    left: 12.5%;
+    right: 12.5;
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    display: none;
+    margin: auto;
+}
+
+.msg-div h5{
+    font-size: x-large;
+}
+.openmsg{
+    display: block;
+}

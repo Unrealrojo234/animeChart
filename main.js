@@ -13,3 +13,18 @@ const observer = new IntersectionObserver((entries)=>{
   
   const hiddenElement = document.querySelectorAll(".btn-danger");
   hiddenElement.forEach((el=>observer.observe(el)));
+
+function openmsg() { 
+  $(".msg-div").addClass("openmsg");
+  $(".openmsg").addClass("animate__animated animate__bounceOutUp animate__slower");
+  timeCount();
+ }
+
+function clearmsg() {
+  $(".msg-div").removeClass("openmsg");
+  $(".openmsg").removeClass("animate__animated animate__bounceOutUp");
+  }
+
+function timeCount(){
+  setTimeout(clearmsg,2500)
+}
