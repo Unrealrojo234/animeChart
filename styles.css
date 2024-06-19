@@ -36,6 +36,7 @@ h1{
     backdrop-filter: blur(15px);
     display: none;
     margin: auto;
+    z-index: 10;
 }
 
 .msg-div h5{
@@ -43,4 +44,8 @@ h1{
 }
 .openmsg{
     display: block;
+}
+
+button{
+    z-index: 0;
 }
